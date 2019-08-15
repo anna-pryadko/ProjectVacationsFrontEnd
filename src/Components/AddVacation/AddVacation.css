@@ -1,0 +1,115 @@
+.col {
+    
+    height: 80px;
+}
+
+.lableBox {
+    margin-bottom: 0px;;
+    margin-top: 0px;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Chewy', cursive;
+}
+
+.addBox {
+    text-align: left;
+    /* width:50%; */
+    height:650px;
+   
+   
+    position: absolute;
+    top:10%;
+    left: 35%;
+     /* transform: translate(-50%,-50%); */
+     /* text-align: center; */
+    
+    
+        border: 1px solid rgb(153, 153, 153);
+        border-radius: 20px;
+        box-shadow: 10 10px 12px -1px black;
+        background-color: rgba(255, 255, 255, 0.2);
+       /* background-color: #f1f1f127;
+        /* box-shadow: .8px .9px 3px black;  */
+        transition:  box-shadow .5s ease-out;
+     
+    }
+
+    .addBox:hover{
+        box-shadow: 20px 20px 30px black; 
+        transition:  box-shadow .4s ease-in;
+    }
+    
+    .addBox input {
+       border:0;
+       background: rgba(255, 255, 255, 0.5);
+       display: block;
+       /* margin: 20px auto; */
+       margin-top: 0%;
+       text-align: left;
+       border: 2px solid #3498db; 
+       outline: none;
+       width: 100%;
+       height: 40px;
+       color: white;
+       border-radius: 5px;
+       transition: 0.25s;
+       font-weight: 500;
+    }
+
+    .addBox input:hover{ 
+        border-color:darkblue;
+        background: white;
+        color: black;
+     }
+    
+    .but{
+        /* padding: 14px 40px; */
+        background: #2ecc71;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #2ecc71; 
+        outline: none;
+        width: 120px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+        transition: 0.25s;
+        font-weight: 500;
+        cursor: pointer;
+     }
+
+     .but:hover{
+        border:0;
+        /* padding: 14px 40px; */
+        background-color: #1c8d4b;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #1c8d4b; 
+        outline: none;
+        width: 130px;
+        height: 40px;
+        color: white;
+        border-radius: 5px;
+        transition: 0.25s;
+        font-weight: 500;
+        cursor: pointer;
+     }
+    
+    .Main{
+        font-family:  Tahoma, sans-serif;
+        color:darkblue;
+
+        }
+
+    
+    

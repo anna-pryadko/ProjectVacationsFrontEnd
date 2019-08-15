@@ -1,0 +1,49 @@
+h1 {
+	padding-top: 25px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family:sans-serif;
+	color: white;
+}
+
+.boxCards {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.boxCardsUser {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	align-items: center;
+	
+}
+h3 {
+	margin-top: 30px;
+}
+
+h1 {
+	padding-top: 100px;
+}
+
+
+.mainPage {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.container {
+	margin-top: 0px!important;
+}
+/* .menuAdm {
+	background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+	background-attachment:fixed;
+	font-weight: bold;
+	color:black;
+} */

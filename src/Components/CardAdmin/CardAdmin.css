@@ -1,0 +1,38 @@
+.card
+{
+    margin: 15px;
+    border-radius: 5px;
+    height: 345px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    float:left !important; 
+
+    /* height: 100%; */
+    transition:  box-shadow .5s ease-out;
+   
+}
+
+p {
+  margin-bottom: 5px;
+ 
+}
+
+.card:hover{ 
+  box-shadow: 20px 20px 20px black;
+  transition:  box-shadow .4s ease-in;
+}
+
+.card-body {
+  width: 100%
+}
+
+img {
+  height: 180px;
+}
+
+.boxDate {
+  height: 50px;
+}
+
+
+

@@ -1,0 +1,44 @@
+
+.container {
+    margin-top: 10px;
+}
+
+.mainMenu {
+    height: 70px;
+    width: 100%;
+    position: fixed;  
+    background: transparent; 
+    font-size:20px;
+    margin-top: 0px;
+    color:white;
+    z-index: 9999;
+    transition:  box-shadow .5s ease-out;
+    background-color: blue;
+    font-weight: bold;
+}
+
+.mainMenu:hover {
+    /* box-shadow: 20px 20px 50px black; */
+    transition:  box-shadow .4s ease-in;
+}   
+
+.hello {
+    
+    margin-left: 30px;
+    font-size:20px;
+    z-index: 9999;
+}
+
+.linkMenu {
+    color: white;
+}
+
+.linkMenu:hover {
+    
+    color:green;
+
+}
+
+
+
+
